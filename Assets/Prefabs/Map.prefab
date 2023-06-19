@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &831149291444761305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5423205068104890320}
+  - component: {fileID: 7032248128397955515}
+  - component: {fileID: 4810542486777124504}
+  - component: {fileID: 1157149000}
+  - component: {fileID: 1157149004}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5423205068104890320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831149291444761305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 523.5385, y: 0, z: 268.96753}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7032248128397955515
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831149291444761305}
+  m_Mesh: {fileID: 0}
+--- !u!114 &4810542486777124504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831149291444761305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11df51038da3c44188838c237253e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayMode: 0
+  colorGrade:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.95633334, b: 0.81761, a: 1}
+    key1: {r: 0, g: 0.6886792, b: 0.10629652, a: 1}
+    key2: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 35081
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  materialPreset: {fileID: 2100000, guid: 2791d1fdc9ec062448f26300f0e2c0e2, type: 2}
+  xSize: 25
+  zSize: 25
+  density: 25
+  seed: 0
+  randomSeed: 1
+  randomSeedInt: 693
+  blocky: 1
+  terrainSteps: 3
+  maxHeight: 5
+  shelves: 0
+  shelfHeight: 0.1
+  oceanHeight: 0.25
+  oceanDistance: 9.45
+  noiseSize: 0.235
+  vertCount: 5000
+  cubePrefab: {fileID: 8224515820743264497, guid: de7cf68c670f67b409e566054c67927e, type: 3}
+  oceanPrefab: {fileID: 835058180767205372, guid: 7868e379324227c468d7b68dd97d3c66, type: 3}
+  previewEnabled: 0
+  previewMode: 1
+  previewOffset: {x: 2, y: 0, z: 0}
+  previewScale: 1
+  previewPrefab: {fileID: 835058180767205372, guid: 7868e379324227c468d7b68dd97d3c66, type: 3}
+  autoUpdate: 1
+--- !u!114 &1157149000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831149291444761305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3cd4a7648546d4a805ca1145d703e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshGen: {fileID: 0}
+  printMapLogs: 0
+--- !u!114 &1157149004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831149291444761305}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8765d63c2255cfc4c95988c181cc863d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObstructionMask:
+    serializedVersion: 2
+    m_Bits: 256
+  gridWorldSize: {x: 150, y: 150}
+  navSubdivisions: 20
+  nodeRadius: 1
+  Distance: 0.1
+  drawDebug: 0
